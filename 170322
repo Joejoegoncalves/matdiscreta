@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main()
+{
+  int r, p, q;
+
+setlocale(LC_ALL,"Portuguese");
+printf("\n\t===== JONATHAN HENRIQUE GONÇALVES===== \n\t");
+printf("\n\t===== MATEMÁTICA DISCRETA =====\n\t");
+
+
+printf("\n Digite o valor lógico de r: ");
+scanf("%d",&r);
+printf("\n Digite o valor lógico de p: ");
+scanf("%d",&p);
+printf("\n Digite o valor lógico de q: ");
+scanf("%d",&q);
+
+if ((p>=0)&&(q==1))
+
+
+   printf("O valor lógico de (p ^ q)  será\t 1\n");
+
+
+      else
+
+   if ((p>1)&&(q==0)); //e
+
+      printf("\t O valor lógico de (p ^ q)  será\t 0\n");
+
+
+if ((p>=1)||(q<=0)) //ou
+
+        printf("\t O valor lógico de (p v q)  será\t 0\n");
+
+       else;
+
+   if ((p==1)||(q==0))
+
+    printf("\t O valor lógico de (p v q)  será\t 1\n");
+
+    printf("\t O valor lógico de r é %d\n",!&r);
+
+    return 0;
+
+}
